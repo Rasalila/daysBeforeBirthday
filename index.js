@@ -20,9 +20,8 @@ document.getElementById("button").onclick = function birthDateFun() {
   console.log(`days beoore ${daysBefore}`);
 
   // начало подбора правильного слова
-
   let daysBefore1 = daysBefore;
-  let count = daysBefore1;
+  let count = daysBefore1 % 100;
   console.log("count = ", count);
 
   let result1 = "";
